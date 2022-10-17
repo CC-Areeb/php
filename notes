@@ -1,3 +1,5 @@
+"VARIABLES AND CONSTANTS"
+
 Strings are data types that are treated as words and letters and sentences like in English language.
 
 Integers are data types that are numbers like math numbers. It can negative, positive and decimals.
@@ -5,3 +7,15 @@ Integers are data types that are numbers like math numbers. It can negative, pos
 It is possible to override the initial values you had set and to stop this we can use the "define()" method
 in php. This method takes in 2 parameters, 1st is the name of the constant variable and 2nd is the value of
 that constant variable.
+
+How to define constant:-
+
+"
+define("CONSTANT_NAME_IN_BLOCK_LETTERS","The data you want to store inside");
+"
+
+example
+
+define("NAME","My name is PHP");
+
+echo NAME; OR <?php echo NAME; ?>
